@@ -36,6 +36,11 @@ output_dir
 ...
 ```
 
+## Future plans
+- Add option to use password files instead of raw passwods
+- Add config file to read from
+- Download course notes as well
+- Expand to download from materials.doc.ic.ac.uk
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
