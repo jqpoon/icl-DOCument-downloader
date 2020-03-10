@@ -12,7 +12,7 @@ A simple python script to help download coursework specifications and answers.
 1. Download script with wget or curl. Alternatively, simply navigate to link and download script.
 
 ```
-wget https://raw.githubusercontent.com/jqpoon/icl-cate-downloader/master/scripts/main.py?token=AN43FDVCXQ55XP2EHQUIP3K6M6TB4
+wget https://raw.githubusercontent.com/jqpoon/icl-DOCument-downloader/master/scripts/main.py
 ```
 
 2. Edit file with your username and password, set output directory
