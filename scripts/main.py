@@ -33,6 +33,11 @@ def href_is_data(href):
 
 ########################### FILE HANDLING ###########################
 
+def init_checks():
+    if not os.path.isdir(base_path):
+        print("Input path does not exist!")
+        raise SystemExit
+
 def download_file(name, url, output_path):
     """Downloads file at url to
     output path using requests"""
@@ -98,6 +103,7 @@ def get_given_link(link):
         print("Error: no valid href found on external page: " + link)
 
 def main():
+    init_checks()
     soup_object = simple_soup(spring_homepage)
     for item in soup_object.find_all('a', href=href_is_file):
         module_name = get_module_name(item)
