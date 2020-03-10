@@ -19,5 +19,23 @@ A simple python script to help download coursework specifications and answers.
 
 ```python main.py```
 
+This writes to the output directory specified, with the following structure
+
+```
+output_dir
+│
+└───(course #) - (course_name)
+│   │
+│   └───exercises
+│       │   (#)_(TUT|CW|PMT) - (name).pdf
+│       │   1_CW - Coursework 1.pdf
+│       │   ...
+│   
+└───113 - Introduction to Computer Architecture
+|
+...
+```
+
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
