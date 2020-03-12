@@ -1,4 +1,4 @@
-# icl-cate-downloader
+# icl-DOCument-downloader
 A simple python script to help download coursework specifications and answers.
 
 ## Getting Started
